@@ -30,8 +30,9 @@ body{
     position: relative;
     height: 150px;
     width: 25vw;
-    background-color: black;
-    opacity: 0.6;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    
     top: 8rem;
     margin: 0px;
 }
@@ -96,13 +97,13 @@ input:focus{
     justify-content: flex-end;
     font-size: 24px;
     flex: 1;
-    padding: 20px;
+    padding: 25px;
 }
 .form{
     position:relative;
     box-shadow: 0px 4px 5px 1px gray; 
     flex: 1;
-    padding: 20px;
+    padding: 10px 40px;
 }
 .signupButton{
     background-color:  rgb(248, 246, 246);
@@ -110,7 +111,7 @@ input:focus{
     justify-content: center;
     font-size: 18px;  
     flex: 1;
-    padding: 20px;
+    padding: 40px;
 }
 button{
     margin: 10px 0 10px;
@@ -122,9 +123,8 @@ button{
     color: white;
     font-size: 16px;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.5);
-    
-
 }
 legend{
     margin-bottom: 10px;
+    font-size: 20px;
 }
